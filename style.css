@@ -73,6 +73,7 @@ body {
     border: 3px solid #3882F6;
     border-radius: 12px;
     display: flex;
+    margin-bottom: 10px;
 
 }
 
@@ -80,6 +81,7 @@ body {
     display:flex;
     justify-content:space-between;
     gap: 56px;
+ 
    
 }
 
@@ -92,11 +94,79 @@ body {
 
 .quotepart {
     display: flex;
+    height: 250px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0;
+
 }
 
-.signuppart {
-    display: flex;
+.quotetext {
+    display:flex;
+    width: 800px;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    flex-grow: 1;
+    padding-top: 45px;
+}
 
+.quoteauthor {
+    display: flex;
+    font-style: italic;
+    flex-grow: 1;
+    margin-top: -10px;
+    justify-content: right;
+    width: 800px;
+  
+}
+.signuppart {
+    display:flex;
+    flex-grow: 1;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.c2atext {
+    display:flex;
+    flex-direction: column;
+}
+
+.signupbottom {
+    display: flex;
+    border: 3px solid white;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6; 
+    border-radius: 12px;
+    border: none;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+
+.calltoactionhead {
+    font-weight: bold;
+    font-size: large;
+    color: #E5E7EB;
+}
+
+.calltoactionmain {
+    color: #E5E7EB;
 }
 
 .footer {
@@ -149,11 +219,7 @@ a {
     color: #F9FAF8;
 }
 
-button {
-    background-color: #3882F6;
-    border-radius: 12px;
-    border: none;
-    color: #F9FAF8;
-    padding: 10px 30px;
-    font-weight: bolder;
-}
+
+
+
+    
