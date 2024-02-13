@@ -16,6 +16,16 @@ body {
 
 }
 
+.headertext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 .content {
     display: flex;
     flex-direction: column;
@@ -47,7 +57,37 @@ body {
 
 .middlepart {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
 
+}
+
+.middleheading {
+    display: flex;
+}
+
+.imgbox {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    display: flex;
+
+}
+
+.imageboxes {
+    display:flex;
+    justify-content:space-between;
+    gap: 56px;
+   
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    text-align: center;
 }
 
 .quotepart {
@@ -76,8 +116,8 @@ ul {
     
 }
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding-left: 56px;
 }
 
@@ -87,10 +127,7 @@ ul {
     height: 250px;
 }
 
-.imgbox {
-    width: 100px;
-    height: 100px;
-}
+
 
 li {
     text-decoration: none;
@@ -98,17 +135,25 @@ li {
 
 a {
     color: #E5E7EB;
-   
+    text-decoration: none;
 }
 
 .herotext {
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
-
 }
 
 .herosectext {
     font-size: 18px;
     color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: none;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: bolder;
 }
